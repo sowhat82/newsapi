@@ -1,0 +1,31 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      
+        {{#if hascontent}}
+            {{#each results}}
+                <h3>{{this.title}}</h5>
+                <img src="{{this.img}}" alt="">
+                <div>{{this.summary}}</div>
+                <br>
+
+                <p style="text-align:left;">
+                    Published on: {{this.publishedat}}
+                    <span style="float:right;">
+                        <a class="text-right" href="{{this.url}}" target="_blank">
+                            Read more
+                        </a>
+                    </span>
+                </p>        
+                <br><br>
+            {{/each}}
+        {{else}}
+
+        <h3>No results</h3>
+
+        {{/if}}
+    </div>
+  </div>
+</div>

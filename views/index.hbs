@@ -1,0 +1,52 @@
+
+
+<form method="GET" action="/search">
+
+    <div><h1>News Search</h1></div>
+    <div>
+    <input type="text" name="searchterm" size="50" placeholder="Please enter a search field">
+    </div>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="country" id="inlineRadio1" value="cn">
+            <img src="/flags/cn.png" alt="">
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="country" id="inlineRadio2" value="fr">
+            <img src="/flags/fr.png" alt="">
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="country" id="inlineRadio3" value="jp">
+            <img src="/flags/jp.png" alt="">
+        </div>
+
+        <div></div>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="country" id="inlineRadio4" value="sg">
+            <img src="/flags/sg.png" alt="">
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="country" id="inlineRadio5" value="uk">
+            <img src="/flags/uk.png" alt="">
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="country" id="inlineRadio6" value="us">
+            <img src="/flags/us.png" alt="">
+        </div>
+
+        <div>
+        <select class="custom-select w-25 mt-3 mb-3" name ="category">
+            <option value="" selected>Category</option>
+            <option value="Business">Business</option>
+            <option value="Sports">Sports</option>
+            <option value="Entertainment">Entertainment</option>
+        </select>
+
+    </div>
+
+    <div>
+        <button type="submit" >SEARCH</button>
+    </div>
+
+</form>

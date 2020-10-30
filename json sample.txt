@@ -1,0 +1,23 @@
+articles: [
+    {
+      source: [Object],
+      author: 'Reuters Staff',
+      title: 'UK Sports Minister confident Premier League will help EFL clubs - Reuters UK',
+      description: 'The British government is confident the Premier League will play its part in helping lower tier clubs survive the financial ravages of the COVID-19 pandemic, Minister for Sport Nigel Huddleston said on Wednesday.',
+      url: 'https://in.reuters.com/article/uk-health-coronavirus-soccer-britain-idUKKBN26L2QN',
+      urlToImage: 'https://static.reuters.com/resources/r/?m=02&d=20200930&t=2&i=1535546911&r=LYNXMPEG8T1V8&w=800',
+      publishedAt: '2020-09-30T14:33:58Z',
+      content: 'By Reuters Staff\r\n' +
+        'LONDON (Reuters) - The British government is confident the Premier League will play its part in helping lower tier clubs survive the financial ravages of the COVID-19 pandemic, Mini… [+2382 chars]'
+    },
+    {
+      source: [Object],
+      author: 'Reuters Staff',
+      title: 'UK Sports Minister confident Premier League will help EFL clubs - Reuters UK',
+      description: 'The British government is confident the Premier League will play its part in helping lower tier clubs survive the financial ravages of the COVID-19 pandemic, Minister for Sport Nigel Huddleston said on Wednesday.',
+      url: 'https://uk.reuters.com/article/uk-health-coronavirus-soccer-britain-idUKKBN26L2QN',
+      urlToImage: 'https://static.reuters.com/resources/r/?m=02&d=20200930&t=2&i=1535546911&r=LYNXMPEG8T1V8&w=800',
+      publishedAt: '2020-09-30T14:32:03Z',
+      content: 'By Reuters Staff\r\n' +
+        'LONDON (Reuters) - The British government is confident the Premier League will play its part in helping lower tier clubs survive the financial ravages of the COVID-19 pandemic, Mini… [+2382 chars]'
+    },
